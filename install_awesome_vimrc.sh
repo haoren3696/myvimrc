@@ -12,4 +12,8 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
+
+git clone https://github.com/gmarik/vundle.git ~/.vim_runtime/bundle/vundle
+echo "vundle installed"
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
