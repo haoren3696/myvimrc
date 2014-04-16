@@ -6,6 +6,8 @@ let path='~/.vim_runtime/bundle/'
 call vundle#rc(path)
 Plugin 'gmarik/vundle'
 Plugin 'bling/vim-airline'
+Plugin 'mru.vim'
+Plugin 'scrooloose/nerdtree'
 filetype plugin indent on
 
 set number
