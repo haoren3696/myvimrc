@@ -1,4 +1,13 @@
 
+set nocompatible
+filetype off
+set rtp+=~/.vim_runtime/bundle/vundle/
+let path='~/.vim_runtime/bundle/'
+call vundle#rc(path)
+Plugin 'gmarik/vundle'
+Plugin 'bling/vim-airline'
+filetype plugin indent on
+
 set number
 
 set cursorcolumn
