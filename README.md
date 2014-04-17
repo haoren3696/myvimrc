@@ -7,6 +7,7 @@ cd ~/.vim_runtime
 sh install.sh
 
 卸载步骤：
+
 sh uninstall.sh
 
 
