@@ -14,7 +14,7 @@ catch
 endtry' > ~/.vimrc
 
 
-git clone https://github.com/gmarik/vundle.git ~/.vim_runtime/bundle/vundle
+git clone https://github.com/gmarik/vundle.git ~/.vim_runtime/bundle/vundle 2>/dev/null
 echo "vundle installed"
 
 vim +PluginInstall +qall
