@@ -1,4 +1,3 @@
-touch ~/.vimrc
 cp ~/.vimrc ~/.vimrcbackup
 cd ~/.vim_runtime
 
