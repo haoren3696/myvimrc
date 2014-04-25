@@ -8,6 +8,9 @@ Plugin 'gmarik/vundle'
 Plugin 'bling/vim-airline'
 Plugin 'mru.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'taglist.vim'
+Plugin 'The-NERD-Commenter'
+Plugin 'SuperTab'
 filetype plugin indent on
 
 set number
@@ -23,6 +26,6 @@ set listchars=tab:>.,trail:.
 set fenc=utf-8
 set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
 
-colorscheme desert
+colorscheme default
 
 

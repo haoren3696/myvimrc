@@ -45,6 +45,7 @@ endif
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>e :e! ~/.vim_runtime/my_configs.vim<cr>
+map <leader>p :e! ~/.vim_runtime/vimrcs/plugins_config.vim<cr>
 autocmd! bufwritepost vimrc source ~/.vim_runtime/my_configs.vim
 
 
@@ -84,6 +85,7 @@ cnoremap <C-N> <Down>
 map ½ $
 cmap ½ $
 imap ½ $
+map <c-[> <c-]>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
