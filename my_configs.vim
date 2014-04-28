@@ -8,6 +8,9 @@ Plugin 'gmarik/vundle'
 Plugin 'bling/vim-airline'
 Plugin 'mru.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'taglist.vim'
+
+set nocompatible
 filetype plugin indent on
 
 set number
@@ -24,5 +27,12 @@ set fenc=utf-8
 set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
 
 colorscheme desert
+
+"""""""""""""""""""""""""""""""""""""""""""
+"taglist
+"""""""""""""""""""""""""""""""""""""""""""
+let Tlist_Use_Right_Window=1
+let Tlist_Exit_OnlyWindow=1
+map <leader>t :Tlist<cr><c-l>
 
 
